@@ -6,7 +6,7 @@ require_relative '../../app/ocr/account'
 require_relative '../../app/ocr/accountpart'
 
 
-describe 'account' do
+describe Account do
 
   let(:account) { Account.new }
   subject { account }
@@ -53,7 +53,7 @@ describe 'account' do
 
   end
 
-  it 'should be invalid if it contains 9 known digits that do not create a valid checksum' do
+  it 'should return a state of illegal if it contains 9 known digits that do not create a valid checksum' do
 
     part1 = AccountPart.new
     part1.value = '3'
@@ -96,7 +96,7 @@ describe 'account' do
 
   end
 
-  it 'should be error if it contains any unknown digits' do
+  it 'should return a state of error if it contains any unknown digits' do
 
     part1 = AccountPart.new
     part1.value = '3'
