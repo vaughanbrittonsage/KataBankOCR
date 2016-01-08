@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be4285e-62f0-46ec-8bba-deea02acfe29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ocr/accountvalidator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/ocr/accountvalidator_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ocr/account.rb" afterPath="$PROJECT_DIR$/app/ocr/account.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ocr/accountbuilder.rb" afterPath="$PROJECT_DIR$/app/ocr/accountbuilder.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ocr/fileentry.rb" afterPath="$PROJECT_DIR$/app/ocr/fileentry.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/ocr/account_spec.rb" afterPath="$PROJECT_DIR$/spec/ocr/account_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/ocr/accountbuilder_spec.rb" afterPath="$PROJECT_DIR$/spec/ocr/accountbuilder_spec.rb" />
     </list>
     <ignored path="Bank OCR Katas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +37,30 @@
         <entry file="file://$PROJECT_DIR$/spec/ocr/account_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountvalidator_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/ocr/accountvalidator_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="e#496#575#0" expanded="false" />
+                <element signature="e#720#800#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountvalidator.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ocr/accountvalidator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -43,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/app/ocr/digitparser.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <caret line="36" column="25" selection-start-line="33" selection-start-column="20" selection-end-line="36" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -69,36 +96,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="digitparser_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/ocr/digitparser_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileentry_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/ocr/fileentry_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filereader_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/ocr/filereader_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="accountpart.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ocr/accountpart.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,17 +110,35 @@
         <entry file="file://$PROJECT_DIR$/app/ocr/accountbuilder.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="accountbuilder_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/ocr/accountbuilder_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50291544">
+              <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+              <folding>
+                <element signature="e#581#1902#0" expanded="false" />
+                <element signature="e#655#1148#0" expanded="false" />
+                <element signature="e#1234#1385#0" expanded="false" />
+                <element signature="e#1445#1895#0" expanded="false" />
+                <element signature="e#1941#2184#0" expanded="false" />
+                <element signature="e#2221#3285#0" expanded="false" />
+                <element signature="e#3308#5685#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ocr/account.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4868804">
-              <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -146,11 +161,13 @@
         <option value="$PROJECT_DIR$/spec/ocr/filereader_spec.rb" />
         <option value="$PROJECT_DIR$/spec/ocr/digitparser_spec.rb" />
         <option value="$PROJECT_DIR$/spec/ocr/fileentry_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/ocr/accountbuilder_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/ocr/account_spec.rb" />
         <option value="$PROJECT_DIR$/app/ocr/fileentry.rb" />
-        <option value="$PROJECT_DIR$/app/ocr/accountbuilder.rb" />
         <option value="$PROJECT_DIR$/app/ocr/account.rb" />
+        <option value="$PROJECT_DIR$/app/ocr/accountvalidator.rb" />
+        <option value="$PROJECT_DIR$/spec/ocr/account_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/ocr/accountvalidator_spec.rb" />
+        <option value="$PROJECT_DIR$/app/ocr/accountbuilder.rb" />
+        <option value="$PROJECT_DIR$/spec/ocr/accountbuilder_spec.rb" />
       </list>
     </option>
   </component>
@@ -281,6 +298,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/ocr" />
+    </key>
   </component>
   <component name="RunManager" selected="IRB console.Rails console: Bank OCR Katas">
     <configuration default="false" name="Rails console: Bank OCR Katas" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
@@ -561,7 +583,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -637,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/ocr/accountbuilder_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/ocr/digitparser_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -669,26 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/ocr/account_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ocr/fileentry.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ocr/digitparser.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -709,19 +709,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ocr/accountbuilder.rb">
+    <entry file="file://$PROJECT_DIR$/app/ocr/digitparser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="36" column="25" selection-start-line="33" selection-start-column="20" selection-end-line="36" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ocr/account.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4868804">
-          <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="43" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ocr/accountvalidator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/ocr/account_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/ocr/accountvalidator_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#496#575#0" expanded="false" />
+            <element signature="e#720#800#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ocr/accountbuilder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/ocr/accountbuilder_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50291544">
+          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+          <folding>
+            <element signature="e#581#1902#0" expanded="false" />
+            <element signature="e#655#1148#0" expanded="false" />
+            <element signature="e#1234#1385#0" expanded="false" />
+            <element signature="e#1445#1895#0" expanded="false" />
+            <element signature="e#1941#2184#0" expanded="false" />
+            <element signature="e#2221#3285#0" expanded="false" />
+            <element signature="e#3308#5685#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

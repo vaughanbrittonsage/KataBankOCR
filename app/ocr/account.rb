@@ -43,6 +43,13 @@ class Account
 
   end
 
+  def get_unknown_parts
+
+    #find all the unknown parts to this account number
+    @parts.select { |part| part.value == '?' }
+
+  end
+
   def valid?
 
     #check account for valid checksum
